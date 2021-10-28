@@ -17,4 +17,5 @@ jobs:
       with:
         api-key: ${{ secrets.BRIDGECREW_API_KEY }}
         soft_fail: true
+        output_format: cli
         
